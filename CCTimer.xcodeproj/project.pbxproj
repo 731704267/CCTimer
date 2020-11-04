@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		707E428A2552516500F2F373 /* CCTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E42802552516500F2F373 /* CCTimer.framework */; };
-		707E428F2552516500F2F373 /* CCTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E428E2552516500F2F373 /* CCTimerTests.m */; };
 		707E42912552516500F2F373 /* CCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 707E42832552516500F2F373 /* CCTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		707E42A225528C8A00F2F373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E42A125528C8A00F2F373 /* AppDelegate.m */; };
 		707E42A525528C8A00F2F373 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E42A425528C8A00F2F373 /* SceneDelegate.m */; };
@@ -17,42 +15,15 @@
 		707E42AD25528C8C00F2F373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707E42AC25528C8C00F2F373 /* Assets.xcassets */; };
 		707E42B025528C8C00F2F373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707E42AE25528C8C00F2F373 /* LaunchScreen.storyboard */; };
 		707E42B325528C8C00F2F373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E42B225528C8C00F2F373 /* main.m */; };
-		707E42BD25528C8C00F2F373 /* CCTimerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E42BC25528C8C00F2F373 /* CCTimerTestTests.m */; };
-		707E42C825528C8C00F2F373 /* CCTimerTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E42C725528C8C00F2F373 /* CCTimerTestUITests.m */; };
 		707E42D425528CF200F2F373 /* CCTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707E42802552516500F2F373 /* CCTimer.framework */; };
+		707E42DB2552903500F2F373 /* NSTimer+CCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 707E42D92552903500F2F373 /* NSTimer+CCTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		707E42DC2552903500F2F373 /* NSTimer+CCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 707E42DA2552903500F2F373 /* NSTimer+CCTimer.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		707E428B2552516500F2F373 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 707E42772552516500F2F373 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 707E427F2552516500F2F373;
-			remoteInfo = CCTimer;
-		};
-		707E42B925528C8C00F2F373 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 707E42772552516500F2F373 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 707E429D25528C8A00F2F373;
-			remoteInfo = CCTimerTest;
-		};
-		707E42C425528C8C00F2F373 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 707E42772552516500F2F373 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 707E429D25528C8A00F2F373;
-			remoteInfo = CCTimerTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		707E42802552516500F2F373 /* CCTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707E42832552516500F2F373 /* CCTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTimer.h; sourceTree = "<group>"; };
 		707E42842552516500F2F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		707E42892552516500F2F373 /* CCTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		707E428E2552516500F2F373 /* CCTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTimerTests.m; sourceTree = "<group>"; };
-		707E42902552516500F2F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707E429E25528C8A00F2F373 /* CCTimerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTimerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707E42A025528C8A00F2F373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		707E42A125528C8A00F2F373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,12 +36,8 @@
 		707E42AF25528C8C00F2F373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		707E42B125528C8C00F2F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707E42B225528C8C00F2F373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		707E42B825528C8C00F2F373 /* CCTimerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTimerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		707E42BC25528C8C00F2F373 /* CCTimerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTimerTestTests.m; sourceTree = "<group>"; };
-		707E42BE25528C8C00F2F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		707E42C325528C8C00F2F373 /* CCTimerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTimerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		707E42C725528C8C00F2F373 /* CCTimerTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTimerTestUITests.m; sourceTree = "<group>"; };
-		707E42C925528C8C00F2F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707E42D92552903500F2F373 /* NSTimer+CCTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+CCTimer.h"; sourceTree = "<group>"; };
+		707E42DA2552903500F2F373 /* NSTimer+CCTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+CCTimer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		707E42862552516500F2F373 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				707E428A2552516500F2F373 /* CCTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,20 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		707E42B525528C8C00F2F373 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		707E42C025528C8C00F2F373 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -118,10 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				707E42822552516500F2F373 /* CCTimer */,
-				707E428D2552516500F2F373 /* CCTimerTests */,
 				707E429F25528C8A00F2F373 /* CCTimerTest */,
-				707E42BB25528C8C00F2F373 /* CCTimerTestTests */,
-				707E42C625528C8C00F2F373 /* CCTimerTestUITests */,
 				707E42812552516500F2F373 /* Products */,
 				707E42D325528CF200F2F373 /* Frameworks */,
 			);
@@ -131,10 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				707E42802552516500F2F373 /* CCTimer.framework */,
-				707E42892552516500F2F373 /* CCTimerTests.xctest */,
 				707E429E25528C8A00F2F373 /* CCTimerTest.app */,
-				707E42B825528C8C00F2F373 /* CCTimerTestTests.xctest */,
-				707E42C325528C8C00F2F373 /* CCTimerTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,17 +83,10 @@
 			children = (
 				707E42832552516500F2F373 /* CCTimer.h */,
 				707E42842552516500F2F373 /* Info.plist */,
+				707E42D92552903500F2F373 /* NSTimer+CCTimer.h */,
+				707E42DA2552903500F2F373 /* NSTimer+CCTimer.m */,
 			);
 			path = CCTimer;
-			sourceTree = "<group>";
-		};
-		707E428D2552516500F2F373 /* CCTimerTests */ = {
-			isa = PBXGroup;
-			children = (
-				707E428E2552516500F2F373 /* CCTimerTests.m */,
-				707E42902552516500F2F373 /* Info.plist */,
-			);
-			path = CCTimerTests;
 			sourceTree = "<group>";
 		};
 		707E429F25528C8A00F2F373 /* CCTimerTest */ = {
@@ -175,24 +107,6 @@
 			path = CCTimerTest;
 			sourceTree = "<group>";
 		};
-		707E42BB25528C8C00F2F373 /* CCTimerTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				707E42BC25528C8C00F2F373 /* CCTimerTestTests.m */,
-				707E42BE25528C8C00F2F373 /* Info.plist */,
-			);
-			path = CCTimerTestTests;
-			sourceTree = "<group>";
-		};
-		707E42C625528C8C00F2F373 /* CCTimerTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				707E42C725528C8C00F2F373 /* CCTimerTestUITests.m */,
-				707E42C925528C8C00F2F373 /* Info.plist */,
-			);
-			path = CCTimerTestUITests;
-			sourceTree = "<group>";
-		};
 		707E42D325528CF200F2F373 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				707E42912552516500F2F373 /* CCTimer.h in Headers */,
+				707E42DB2552903500F2F373 /* NSTimer+CCTimer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,24 +147,6 @@
 			productReference = 707E42802552516500F2F373 /* CCTimer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		707E42882552516500F2F373 /* CCTimerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 707E42972552516500F2F373 /* Build configuration list for PBXNativeTarget "CCTimerTests" */;
-			buildPhases = (
-				707E42852552516500F2F373 /* Sources */,
-				707E42862552516500F2F373 /* Frameworks */,
-				707E42872552516500F2F373 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				707E428C2552516500F2F373 /* PBXTargetDependency */,
-			);
-			name = CCTimerTests;
-			productName = CCTimerTests;
-			productReference = 707E42892552516500F2F373 /* CCTimerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		707E429D25528C8A00F2F373 /* CCTimerTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 707E42CA25528C8C00F2F373 /* Build configuration list for PBXNativeTarget "CCTimerTest" */;
@@ -267,42 +164,6 @@
 			productReference = 707E429E25528C8A00F2F373 /* CCTimerTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		707E42B725528C8C00F2F373 /* CCTimerTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 707E42CD25528C8C00F2F373 /* Build configuration list for PBXNativeTarget "CCTimerTestTests" */;
-			buildPhases = (
-				707E42B425528C8C00F2F373 /* Sources */,
-				707E42B525528C8C00F2F373 /* Frameworks */,
-				707E42B625528C8C00F2F373 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				707E42BA25528C8C00F2F373 /* PBXTargetDependency */,
-			);
-			name = CCTimerTestTests;
-			productName = CCTimerTestTests;
-			productReference = 707E42B825528C8C00F2F373 /* CCTimerTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		707E42C225528C8C00F2F373 /* CCTimerTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 707E42D025528C8C00F2F373 /* Build configuration list for PBXNativeTarget "CCTimerTestUITests" */;
-			buildPhases = (
-				707E42BF25528C8C00F2F373 /* Sources */,
-				707E42C025528C8C00F2F373 /* Frameworks */,
-				707E42C125528C8C00F2F373 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				707E42C525528C8C00F2F373 /* PBXTargetDependency */,
-			);
-			name = CCTimerTestUITests;
-			productName = CCTimerTestUITests;
-			productReference = 707E42C325528C8C00F2F373 /* CCTimerTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -315,19 +176,8 @@
 					707E427F2552516500F2F373 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					707E42882552516500F2F373 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
 					707E429D25528C8A00F2F373 = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					707E42B725528C8C00F2F373 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 707E429D25528C8A00F2F373;
-					};
-					707E42C225528C8C00F2F373 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 707E429D25528C8A00F2F373;
 					};
 				};
 			};
@@ -345,23 +195,13 @@
 			projectRoot = "";
 			targets = (
 				707E427F2552516500F2F373 /* CCTimer */,
-				707E42882552516500F2F373 /* CCTimerTests */,
 				707E429D25528C8A00F2F373 /* CCTimerTest */,
-				707E42B725528C8C00F2F373 /* CCTimerTestTests */,
-				707E42C225528C8C00F2F373 /* CCTimerTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		707E427E2552516500F2F373 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		707E42872552516500F2F373 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,20 +218,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		707E42B625528C8C00F2F373 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		707E42C125528C8C00F2F373 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -399,14 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		707E42852552516500F2F373 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				707E428F2552516500F2F373 /* CCTimerTests.m in Sources */,
+				707E42DC2552903500F2F373 /* NSTimer+CCTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,41 +240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		707E42B425528C8C00F2F373 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				707E42BD25528C8C00F2F373 /* CCTimerTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		707E42BF25528C8C00F2F373 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				707E42C825528C8C00F2F373 /* CCTimerTestUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		707E428C2552516500F2F373 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 707E427F2552516500F2F373 /* CCTimer */;
-			targetProxy = 707E428B2552516500F2F373 /* PBXContainerItemProxy */;
-		};
-		707E42BA25528C8C00F2F373 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 707E429D25528C8A00F2F373 /* CCTimerTest */;
-			targetProxy = 707E42B925528C8C00F2F373 /* PBXContainerItemProxy */;
-		};
-		707E42C525528C8C00F2F373 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 707E429D25528C8A00F2F373 /* CCTimerTest */;
-			targetProxy = 707E42C425528C8C00F2F373 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		707E42A925528C8A00F2F373 /* Main.storyboard */ = {
@@ -637,38 +422,6 @@
 			};
 			name = Release;
 		};
-		707E42982552516500F2F373 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CCTimerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cassidy.CCTimerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		707E42992552516500F2F373 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CCTimerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cassidy.CCTimerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		707E42CB25528C8C00F2F373 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -701,78 +454,6 @@
 			};
 			name = Release;
 		};
-		707E42CE25528C8C00F2F373 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CCTimerTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cassidy.CCTimerTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTimerTest.app/CCTimerTest";
-			};
-			name = Debug;
-		};
-		707E42CF25528C8C00F2F373 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CCTimerTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cassidy.CCTimerTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTimerTest.app/CCTimerTest";
-			};
-			name = Release;
-		};
-		707E42D125528C8C00F2F373 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CCTimerTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cassidy.CCTimerTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CCTimerTest;
-			};
-			name = Debug;
-		};
-		707E42D225528C8C00F2F373 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CCTimerTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cassidy.CCTimerTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CCTimerTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -794,38 +475,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		707E42972552516500F2F373 /* Build configuration list for PBXNativeTarget "CCTimerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				707E42982552516500F2F373 /* Debug */,
-				707E42992552516500F2F373 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		707E42CA25528C8C00F2F373 /* Build configuration list for PBXNativeTarget "CCTimerTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707E42CB25528C8C00F2F373 /* Debug */,
 				707E42CC25528C8C00F2F373 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		707E42CD25528C8C00F2F373 /* Build configuration list for PBXNativeTarget "CCTimerTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				707E42CE25528C8C00F2F373 /* Debug */,
-				707E42CF25528C8C00F2F373 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		707E42D025528C8C00F2F373 /* Build configuration list for PBXNativeTarget "CCTimerTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				707E42D125528C8C00F2F373 /* Debug */,
-				707E42D225528C8C00F2F373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

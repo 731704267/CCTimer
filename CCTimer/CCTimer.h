@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "NSTimer+CCTimer.h"
 //! Project version number for CCTimer.
 FOUNDATION_EXPORT double CCTimerVersionNumber;
 

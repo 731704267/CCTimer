@@ -17,7 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    __weak typeof(self) weakself = self;
+    NSTimer * timer = [NSTimer cc_scheduledTimerWithTimeInterval:1 repeats:NO block:^(){
+        [weakself test];
+    }];
 }
 
+-(void)test{
+    NSLog(@"a");
+}
 
 @end
